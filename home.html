@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+        margin: 100px;
+        transition: all 0.5s ease;
+      }
+
+      .colored-box {
+        height: 100vh;
+      }
+
+      h2 {
+        position: fixed;
+      }
+</style>
+<body>
+  <header id="navbar">
+    <div class="logo">ProDigy Infotech</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section" data-color="red" >Welcome to ProDigy Infotech</section>
+  <section id="about" class="section" data-color="green">About Us</section>
+  <section id="services" class="section" data-color="yellow">Our Services</section>
+  <section id="contact" class="section" data-color="lightblue">Contact Us</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

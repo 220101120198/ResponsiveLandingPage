@@ -1,0 +1,82 @@
+General Styles
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  header.scrolled {
+    background-color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #333;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+
+  .section {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  /* #home {
+    background-color: #f0f0f0;
+  }
+  
+  #about {
+    background-color: #e0e0e0;
+  }
+  
+  #services {
+    background-color: #d0d0d0;
+  }
+  
+  #contact {
+    background-color: #c0c0c0;
+  }
+   */
